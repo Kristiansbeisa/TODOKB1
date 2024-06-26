@@ -1,0 +1,59 @@
+.rindk1 {
+    font-size: 30px;
+    margin: 0 30px 3px 0;
+    text-align:left;
+}
+.head1 {
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0 0 0 100px;
+    font-weight:1;
+}
+.header {
+    background-color:#FF9CCE;
+    text-align:center;
+    color:white;
+    font-size: 40px;
+    padding: 10px;
+}
+body {
+    background-color:pink;
+}
+.tabs {
+    display: flex;
+    background-color:#FF9CCE;
+    text-align: center;
+    height: 100px;
+    align-items: flex-end;
+}
+.tabs > div {
+    background-color:#FF9CCE;
+    width: 600px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 600px;
+}
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+@media (max-width: 600px) {
+    .row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.img1 {
+    border-radius: 10px;
+    width:400px;
+    height: 224px;
+}
